@@ -150,7 +150,7 @@ print('STATIC_ROOT:{}'.format(STATIC_ROOT))
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'app/static'),
 )
 print('STATICFILES_DIRS:{}'.format(STATICFILES_DIRS))
 
